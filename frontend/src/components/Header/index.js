@@ -2,9 +2,9 @@ import React from "react";
 
 function Header() {
   return (
-    <header class="header">
-      <h1 class="header__title">Sequelize #02 | Models e Queries</h1>
-      <nav class="header__nav">
+    <header className="header">
+      <h1 className="header__title">Sequelize #02 | Models e Queries</h1>
+      <nav className="header__nav">
         <a href="/" target="_self" rel="next" title="Acessar página iniciar">
           Início
         </a>

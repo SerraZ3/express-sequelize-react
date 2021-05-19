@@ -1,0 +1,26 @@
+{
+  "name": "express-sequelize-react",
+  "version": "1.0.0",
+  "description": "![Screenshot](https://raw.githubusercontent.com/Marcelo-Diament/sequelize-aula-01/main/backend/public/images/sequelize-aula-01.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix frontend",
+    "server": "npm start --prefix backend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerraZ3/express-sequelize-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerraZ3/express-sequelize-react/issues"
+  },
+  "homepage": "https://github.com/SerraZ3/express-sequelize-react#readme",
+  "dependencies": {
+    "concurrently": "^6.1.0"
+  }
+}
